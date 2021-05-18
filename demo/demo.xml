@@ -1,0 +1,66 @@
+<odoo>
+<!--
+          <record id="object0" model="mymodule.mymodule">
+            <field name="name">Object 0</field>
+            <field name="value">0</field>
+          </record>
+
+          <record id="object1" model="mymodule.mymodule">
+            <field name="name">Object 1</field>
+            <field name="value">10</field>
+          </record>
+
+          <record id="object2" model="mymodule.mymodule">
+            <field name="name">Object 2</field>
+            <field name="value">20</field>
+          </record>
+
+          <record id="object3" model="mymodule.mymodule">
+            <field name="name">Object 3</field>
+            <field name="value">30</field>
+          </record>
+
+          <record id="object4" model="mymodule.mymodule">
+            <field name="name">Object 4</field>
+            <field name="value">40</field>
+          </record>
+
+      <record id="0" model="curso.model">
+            <field name="name">Cuso de Odoo</field>
+            <field name="description">Tutorial feito no estágio para aprender sobre odoo</field>
+      </record>
+      <record id="1" model="curso.model">
+            <field name="name">Cuso de Python</field>
+            <field name="description">Usando python no Odoo</field>
+      </record>
+
+      <record model="ir.actions.act_window" id="listar_cursos">
+        <tree string="Lista Cursos">
+          <field name="name"/>
+          <field name="description"/>
+        </tree>
+      </record>
+
+    <record model="ir.actions.act_window" id="formulario_cursos">
+      <form string="Formulario Curso">
+        <group colspan="4">
+            <group colspan="2" col="2">
+                <field name="name"/>
+            </group>
+
+            <notebook colspan="4">
+                <page string="Description">
+                    <field name="description" nolabel="1"/>
+                </page>
+            </notebook>
+        </group>
+      </form>
+    </record>
+
+    <menuitem id="menu_listar_cursos" parent="menu_root" name="Lista Cursos" sequence="10"
+          action="listar_cursos"/>
+
+    <menuitem id="menu_formulario_cursos" parent="menu_root" name="Formulario Cursos" sequence="10"
+          action="formulario_cursos"/>      
+          -->
+</odoo>
